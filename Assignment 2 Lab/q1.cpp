@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
+#include <windows.h>
 using namespace std;
 
 int main()
 {
+    system("Color FC");
     string items[4] = {
         "1. Hamburger: $4.50", "2. Cheeseburger: $5.00", "3. French fries: $2.50", "4. Soft drink: $1.50"};
     int count = 0;
