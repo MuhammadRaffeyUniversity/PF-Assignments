@@ -87,10 +87,8 @@ int main()
             cout << "Invalid SAP ID format. Please try again." << endl;
             continue;
         }
-
         cout << "Email is valid. Thank you!" << endl;
         break;
     }
-
     return 0;
 }
